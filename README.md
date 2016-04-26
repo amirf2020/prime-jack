@@ -1,4 +1,4 @@
-# Jack
+# prime
 
 Multi purpose telegram bot written in MoonScript/lua and licenced under the GNU General Public License.
 
@@ -20,11 +20,11 @@ Table of Contents
 
 # Setup
 
-Clone Jack !
+Clone prime-jack !
 
 ```bash
 cd $HOME
-git clone https://github.com/Imandaneshi/jack-telegram-bot.git
+git clone https://github.com/sorblack-x/prime-jack.git
 cd jack-telegram-bot
 ```
 install it!
@@ -45,8 +45,7 @@ Add your telegram id to admins table in config.moon
 
 ```MoonScript
 admins: {
-    110626080
-    123456789
+    93365812
     --your id
   }
 ```
@@ -60,8 +59,70 @@ chmod +x run.sh
 ### options
 
 Use `./run.sh --help` for available options
+```
+
+createbot:
+ساخت بات پرایم-جک
+خب مراحلو به ترتیب انجام بدین 
+sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt-get update; sudo apt-get install lua5.1 luarocks lua-socket lua-sec redis-server curl ; sudo luarocks install moonscript ; sudo luarocks install oauth ; sudo luarocks install redis-lua ; sudo luarocks install lua-cjson ; sudo luarocks install ansicolors;sudo luarocks install serpent
 
 
+git clone https://github.com/sorblack-x/prime-jack.git 
+
+
+بعدش برید فایل 
+config.lua
+   
+
+این قسمتو ادیت کنید
+bot_api_key = '',  
+توکن رو از بات فادر بگیرین 
+و درون 
+'' 
+بزارید مانند
+bot_api_key = '1234567=kdkfcgkdggkgfkdfk',
+
+دو لاین پایین تر میبینید که نوشته 
+
+admin = 26484873 , 
+عدد رو پاک کنید و ایدی خودتونو اونجا بزنید تا به عنوان ادمین شناخته بشین
+  
+بعدش وارد پوشه ربات خودتون بشین 
+و بنویسید 
+./launch.sh
+🎈🎈اگر با ارور
+/usr/bin/lua: /usr/share/lua/5.1//luarocks/loader.lua:113: error loading module 'lfs' from file '/usr/local/lib/lua/5.1/lfs.so':
+    /usr/local/lib/lua/5.1/lfs.so: undefined symbol: luaL_register
+مواجه شدین
+ابتدا 
+sudo apt-get install lua5.1
+و سپس 
+sudo apt-get remove lua5.2
+رو توی ترمینال بزنید تموم :)
+و اگر بات این ارور رو به رو شدید پایین رو ببینید: بزنید
+اگر با ارور
+lua: /usr/local/share/lua/5.1/redis.lua:764: could not connect to 127.0.0.1:6379 [connection refused]
+stack traceback:
+        [C]: in function 'error'
+        /usr/local/share/lua/5.1/redis.lua:802: in function 'error'
+        /usr/local/share/lua/5.1/redis.lua:764: in function </usr/local/share/lua/5.1/redis.lua:760>
+        (tail call): ?
+        /usr/local/share/lua/5.1/redis.lua:836: in function 'connect'
+        bot.lua:7: in main chunk
+        [C]: ?
+مواجه شدین باید این کدو بزنین
+sudo service redis-server start redis-cli
+بزنین 
+و تمام :/
+توسط 
+[prime_channel](telegram.me/PrimeTeam)
+#sorblack
+ممنون از : مبین
+```
 # Ranks
 
  Ranks | Permissions      |
@@ -835,6 +896,7 @@ Listed | Requires API KEY | Enabled by default | inline
 
 >Can be used by replying to a msg
 
+
 ### Urban dictionary
 
 Returns the top definition from Urban Dictionary.
@@ -921,40 +983,29 @@ Listed | Requires API KEY | Enabled by default | inline
 `/youtube dl <video name(for download)>`
 
 
-# Support and development
+# Support and development and channel me:
 
-Join our development group by sending /join 1047524697 to [@TeleSeed](https://telegram.me/teleseed)
+Join channel me: [@PrimeTeam](https://telegram.me/PrimeTeam)
 
 # Special thanks to
 
-[Alphonse](https://github.com/hmon)
+[teleseed](https://github.com/Teleseed)
 
-[Vamptacus](https://telegram.me/Vamptacus)
+```
+#our team prime id:
+prime Team
+-----------------
 
-[topkecleon](https://github.com/topkecleon)
+[sorblack](http://telegram.me/sorblack)<br>
+[blackwolf_admin](http://telegram.me/blackwolf_admin)<br>
+[YellowHat](http://telegram.me/yellowhat)<br>
+[mohamad](http://telegram.me/mohammad20162015)<br>
+[mehrshad](http://telegram.me/ThisisMEHRSHAD)<br>
+[haj pro](http://telegram.me/alireza_PT)<br>
 
-[Yago](https://github.com/yagop)
+prime Team Channel
+-----------------
 
-[Flippylosaurus](https://telegram.me/Flippylosaurus)
-
-
-
-# Collaborators
-
-[Unfriendly](https://github.com/pAyDaAr)
-
-[Tiago Danin](https://github.com/TiagoDanin)
-
-# Other projects
-
-[TeleSeed](https://github.com/SEEDTEAM/TeleSeed)
-
->An advance Administration bot
-
-[TelegramLoggingBot](https://github.com/SEEDTEAM/TelegramLoggingBot)
-
->Connects 2 groups or can be used to create a logging group
-
-[file-manager-bot](https://github.com/SEEDTEAM/file-manager-bot)
-
->A Linux file manager telegram bot
+[prime Team](http://telegram.me/PrimeTeam)
+```
+کپی بدون ذکر منبع حرام است :/
