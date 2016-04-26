@@ -388,9 +388,9 @@ Listed | Requires API KEY | Enabled by default | inline
 
 `bot_username, <text>`
 
->jack, How are you ?
+>prime, How are you ?
 
->@imandabot, How are you ?
+>@PrimeHelperbot, How are you ?
 >>you can also trigger chatter plugin by talking to bot in private or replying on of its messages in groups
 
 ### Code
