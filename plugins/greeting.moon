@@ -5,7 +5,7 @@ greetings =
 	"Yo `%s` !": "[Yy]o #{bot_first_name}"
 	"Hi `%s` !
 I'm `#{bot_first_name}`
-A multi purpose Telegram bot based on
+i can help you? you joing in the channel me:👇👇👇👇
 [channel me](https://telegram.me/PrimeTeam) - creater me : @sorblack": "^[!/#]about$"
 --Plz do not remove the repo url :^)
 run = (msg,matches) ->
